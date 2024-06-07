@@ -1,7 +1,4 @@
 import express from 'express';
-import cors from 'cors';
-
-app.use(cors);
 const app = express();
 app.get('/',(req,res)=>{
     res.send('Server is ready');
