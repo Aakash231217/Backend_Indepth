@@ -1,11 +1,12 @@
 {
   "name": "megaproject",
   "version": "1.0.0",
+  "type":"module",
   "description": "a backend at chai aur code ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "author": "",
   "license": "ISC",
