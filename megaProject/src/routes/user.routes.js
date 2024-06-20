@@ -14,7 +14,8 @@ router.route("/register").post(
         maxCount:1,
     }
     ]),
-    registerUser)
+    registerUser
+);
 
 
 export default router;
